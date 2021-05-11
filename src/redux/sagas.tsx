@@ -13,7 +13,7 @@ function* getFilmsList(action) {
     const films = yield call(() =>
       axios({
         method: "GET",
-        url: `http://www.omdbapi.com/?apikey=7a497777&s=${action.title}`,
+        url: `https://www.omdbapi.com/?apikey=7a497777&s=${action.title}`,
       })
     );
 
@@ -31,7 +31,7 @@ function* getOneFilm(action) {
     const films = yield call(() =>
       axios({
         method: "GET",
-        url: `http://www.omdbapi.com/?apikey=7a497777&i=${action.id}`,
+        url: `https://www.omdbapi.com/?apikey=7a497777&i=${action.id}`,
       })
     );
 
