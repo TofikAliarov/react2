@@ -1,0 +1,22 @@
+.input {
+  width: 99%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.head {
+  width: 50%;
+  margin: 0 auto;
+}
+.title {
+  text-align: center;
+}
+.button {
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  margin-left: 35%;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(109, 226, 255);
+}

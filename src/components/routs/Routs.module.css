@@ -1,0 +1,19 @@
+.navigation {
+  background-color: #00bfff;
+}
+.navigationList {
+  margin-top: 0;
+  display: flex;
+}
+.navigationItem {
+  list-style-type: none;
+  font-size: 22px;
+  margin: 20px;
+}
+.navigationItem a {
+  color: black;
+  text-decoration: none;
+}
+.navigationItem :active {
+  color: red;
+}
